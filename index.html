@@ -1,0 +1,29 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Socket App</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script src="/client/index.js" type="module" defer></script>
+  </head>
+  <body>
+    <main>
+      <aside class="leftAside">
+        <div class="inbox_people">
+          <h4>Active users</h4>
+          <hr />
+          <div class="user_list">
+            <div class="current_user"></div>
+          </div>
+        </div>
+      </aside>
+      <section class="mainSection"></section>
+      <aside class="rightAside"></aside>
+    </main>
+  </body>
+</html>

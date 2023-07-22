@@ -1,0 +1,96 @@
+/** @format */
+
+body {
+  margin: 0px;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+}
+
+.leftAside {
+  background-color: antiquewhite;
+  min-height: 100%;
+  width: 20%;
+  padding-left: 10px;
+}
+
+.rightAside {
+  background-color: aquamarine;
+  min-height: 100%;
+  width: 20%;
+  padding-right: 10px;
+}
+
+.mainSection {
+  min-height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.inbox__messages {
+  height: 70vh;
+}
+.messageForm {
+  flex-grow: 1;
+}
+.message_form {
+  width: 100%;
+  height: 30vh;
+}
+
+.message_form__input {
+  width: 80%;
+  height: 10vh;
+  border: 0px;
+  border-style: none;
+  padding-bottom: 15px;
+}
+
+.message_form__button {
+  width: 10%;
+}
+
+.messages__history {
+  padding: 0px 20px;
+}
+.incoming__message {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.received__message {
+  background-color: gainsboro;
+  padding: 0px 20px;
+}
+.outgoing__message {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.sent__message {
+  background-color: greenyellow;
+  padding: 0px 20px;
+}
+
+.message__author {
+  display: block;
+}
+
+.current_user {
+  color: brown;
+}
+
+.has_unread_message {
+  color: blueviolet;
+  font-size: larger;
+}
